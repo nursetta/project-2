@@ -1,3 +1,5 @@
 development:
   adapter: postgresql
   database: qualify
+  production:
+  url: <%= ENV['DATABASE_URL'] %>
